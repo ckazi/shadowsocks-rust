@@ -30,17 +30,17 @@ Launch the server:
    ```bash
    docker-compose up -d
 
-Install a Shadowsocks client:
+**Install a Shadowsocks client:**
 
 To connect to your server, you'll need a Shadowsocks client. For Android devices, download the app from Google Play.
 
-Configure the Shadowsocks client:
+**Configure the Shadowsocks client:**
 
 Add a new connection with the server IP address (the IP of the machine where you've deployed the server), the port, and the password you specified in the docker-compose.yml file. Use aes-256-gcm as the encryption method.
 
 Enjoy unrestricted internet access.
 
-Support
+**Support**
 
 If you found this project helpful and wish to support further development, consider donating to the following Monero (XMR) address:
 
