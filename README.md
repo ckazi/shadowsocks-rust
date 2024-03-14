@@ -27,6 +27,7 @@ Navigate to the directory containing docker-compose.yml and open it in an editor
 Launch the server:
 
 With the configuration set, start your Shadowsocks-Rust server by running:
+```bash
 docker-compose up -d
 
 Install a Shadowsocks client:
