@@ -24,26 +24,30 @@ Configure the environment variables:
 
 Navigate to the directory containing docker-compose.yml and open it in an editor. You must set the SS_PASSWD environment variable to a secure password. Optionally, you can change the SS_IP variable, but it's typically fine to leave it as 0.0.0.0.
 
-Launch the server:
+**Launch the server:**
 
    With the configuration set, start your Shadowsocks-Rust server by running:
    ```bash
    docker-compose up -d
+```
 
 **Install a Shadowsocks client:**
 
-To connect to your server, you'll need a Shadowsocks client. For Android devices, download the app from Google Play.
+To connect to your server, you'll need a Shadowsocks client. For Android devices, download the Shadowsocks app from [Google Play](https://play.google.com/store/apps/details?id=com.github.shadowsocks)
+
 
 **Configure the Shadowsocks client:**
 
-Add a new connection with the server IP address (the IP of the machine where you've deployed the server), the port, and the password you specified in the docker-compose.yml file. Use aes-256-gcm as the encryption method.
+Add a new connection with the server IP address (the IP of the machine where you've deployed the server), the port, and the password you specified in the docker-compose.yml file.
+
+**Use aes-256-gcm as the encryption method.**
 
 Enjoy unrestricted internet access.
 
 **Support**
 
-If you found this project helpful and wish to support further development, consider donating to the following Monero (XMR) address:
+If you found this project helpful and wish to support further development, consider donating to the following **Monero** (XMR) address:
 
-41ugNNZ5erdfj8ofHFhkb2gtwnpsB25digy6DWP1kCgRTJVbg6p7E6YMWbza7iCSMWaeuk9Qkeqzya8mCQcQDymH7P2tgZ5
+**41ugNNZ5erdfj8ofHFhkb2gtwnpsB25digy6DWP1kCgRTJVbg6p7E6YMWbza7iCSMWaeuk9Qkeqzya8mCQcQDymH7P2tgZ5**
 
 Your support is greatly appreciated!
