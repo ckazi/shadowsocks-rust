@@ -5,7 +5,7 @@ services:
     container_name: shadowsocks-rust
     image: ckazi/shadowsocks-rust:1.0
     ports:
-      - "8389:8388"
+      - "8388:8388"
     environment:
       - SS_IP=0.0.0.0
       - SS_PASSWD=SET_YOUR_PASSWD
